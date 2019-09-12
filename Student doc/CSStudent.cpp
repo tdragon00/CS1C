@@ -11,7 +11,7 @@
 #include "student.h"
 #include "CS1Cstudent.h"
 using namespace std;
-CSStudent::CSStudent()
+CSStudent::CSStudent()::student()
 {
 	python_knowledge =0;
 	Score=0;
@@ -65,4 +65,3 @@ void CSStudent::print()
 		cout<<left<<" Class Stadning: "<<setw(10)<<GetClass_Standing();
 		cout<<left<<" GPA: "<<setw(5)<<setprecision(3)<<GetGPA()<<endl;
 }
-

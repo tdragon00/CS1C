@@ -12,7 +12,7 @@
 
 int main()
 {
-	//variables used in constructor test otherwise program takes the " string inputs" and
+	//variables used in constructor test otherwise program takes the "string inputs" and
 	//interprets them as char arrays, and is not recognized in the constructor
 	string firstholder="Madona";
 	string lastholder="";
@@ -23,10 +23,15 @@ int main()
 	string standingholder= "Sophomore";
 	float gpaholder= 3.23;
 
-
+//Testing constructors for students
 student students[]=
 {student(),student(firstholder,lastholder,idholder,phoneholder,ageholder,genderholder,standingholder,gpaholder), student(), student() };
+
+//testing to see if defcault constructor works
 students[0].print();
+
+
+
 students[0].SetAge(51);
 students[0].SetClass_Standing("Freshman");
 students[0].SetFirst_Name("Celine");
@@ -60,11 +65,19 @@ students[3].SetPhone_Number("213-555-6789");
 students[3].setID("777744");
 
 
+//printing all the students
+cout<<"/n Here we are printing out all the students:"<<endl;
 
 students[0].print();
 students[1].print();
 students[2].print();
 students[3].print();
 
-}
 
+
+
+
+
+
+
+}
