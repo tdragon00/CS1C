@@ -13,22 +13,22 @@
 using namespace std;
 CSStudent::CSStudent()
 {
-	python_knowledge =0;
+	python_knowledge ="NO";
 	Score=0;
 	Graduation=date();
 
 
 };
-CSStudent::CSStudent(bool x, int y,date z)
+CSStudent::CSStudent(string x, int y,date z)
 {
 	python_knowledge=x;
 	Score=y;
 	Graduation=z;
 };
 //setters
-void CSStudent::Setknowledge(bool x)
+void CSStudent::Setknowledge(string x)
 {
-python_knowledge=0;
+python_knowledge=x;
 };
 void CSStudent::Setscore(int x )
 {
@@ -44,10 +44,10 @@ date CSStudent::getdate()
 {
 return Graduation;
 };
-bool CSStudent::getknowledge()
+string CSStudent::getknowledge()
 {
-return python_knowledge;
-}
+	return python_knowledge;
+	}
 int CSStudent::getscore()
 {
 return Score;
@@ -55,7 +55,7 @@ return Score;
 //print
 void CSStudent::print()
 {
-	{	cout<<left<<endl;
+		cout<<left<<endl;
 		cout<<left<<" FIRST NAME: "<<setw(8)<<GetFirst_Name();
 		cout<<left<<" LAST NAME: "<<setw(8)<<GetLast_Name();
 		cout<<left<<" ID: "<<setw(8)<<GetID();
@@ -64,5 +64,17 @@ void CSStudent::print()
 		cout<<left<<" Gender: "<<setw(2)<<GetGender();
 		cout<<left<<" Class Stadning: "<<setw(10)<<GetClass_Standing();
 		cout<<left<<" GPA: "<<setw(5)<<setprecision(3)<<GetGPA()<<endl;
-}
+		string month=to_string(Graduation.GetMonth());
+		string day=to_string(Graduation.GetDay());
+		string year=to_string(Graduation.GetYear());
+		cout<<left<<" Assignment score: "<<getscore()<<" Python Knowledge: "<<getknowledge()<<" Graduation Date: "<<month<<"/"<<day<<"/"<<year;
+
+		//<<"Graduation date:"<<date.getmonth()
+};
+
+
+
+
+
+
 
