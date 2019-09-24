@@ -7,7 +7,7 @@
 
 #ifndef ITEM_H_
 #define ITEM_H_
-class Item
+struct Item
 {
 // product variables
 	int product_number;
@@ -15,9 +15,10 @@ class Item
 
 
 public:
-//constructor
+//constructors
 	 Item();
-	~Item();
+	 Item(int p,int a);
+
 
 //setters
 void setproductnumber();

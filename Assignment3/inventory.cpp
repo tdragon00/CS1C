@@ -11,11 +11,10 @@
 
 
 
-
 int inventory::namecheck(std::string x)
 {
 
- for(int i=0; i < NUM_OF_PRODUCTS; i++)
+ for(int i=0; i < inventory::NUM_OF_PRODUCTS; i++)
  {
 
 	if(x==Products[i])
@@ -26,10 +25,8 @@ int inventory::namecheck(std::string x)
 
  }
 
-
  //returning number outside of the array this represents a bad name
- return (NUM_OF_PRODUCTS);
-
+ return (inventory::NUM_OF_PRODUCTS);
 
 }
 
@@ -42,17 +39,19 @@ int inventory::namecheck(std::string x)
 int inventory::productprompt()
 {
 	bool done = false;
+
 	std::string choice;
 	int pnumber;
-	while(!done){
+  std::cout<<"Please type in the name of what you would like to add to the cart"<<std::endl;
+	while(!done)
+  {
 
-	std::cout<<"Please type in the name of what you would like to add to the cart"<<std::endl;
 
 	std::cin>>choice;
 	pnumber=inventory::namecheck(choice);
 	if(pnumber== inventory::NUM_OF_PRODUCTS)
 	{
-		std::cout<<"The name you entered was not found, Please try again";
+		std::cout<<"The name you entered was not found, Please try again"<<std::endl;
 	}
 	else
 	{
@@ -72,12 +71,16 @@ int inventory::productprompt()
 int inventory::amountprompt(int p)
 {
 	bool done = false;
+  int amount;
 
 	std::cout<<"Please state how many "<<inventory::Products[p]<<" You would like to buy. The price per item is "<<inventory::Prices[p]<<std::endl;
 	while(!done)
 	{
+    std::cin>>amount;
+    done = inventory::amountcheck(p,amount);
 
 	}
+
 }
 
 bool inventory::amountcheck(int p, int a )
