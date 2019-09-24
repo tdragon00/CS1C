@@ -1,0 +1,25 @@
+Testing defualt constructor 
+
+ FIRST NAME: NOT SET  LAST NAME: NOT SET  ID: NOT SET  Phone Number NOT SET      Age: 0   Gender: O  Class Stadning: NOT SET    GPA: 0    
+ Mutating data, and printing off students with the newly changed data 
+
+ FIRST NAME: Celine   LAST NAME: Dion     ID: 444444   Phone Number 949-555-1234 Age: 51  Gender: F  Class Stadning: Freshman   GPA: 4    
+ FIRST NAME: Madona   LAST NAME:          ID: 123456   Phone Number 714555555    Age: 61  Gender: F  Class Stadning: Sophomore  GPA: 3.23 
+ FIRST NAME: Jennifer LAST NAME: Lopez    ID: 876542   Phone Number 760-703-1234 Age: 50  Gender: F  Class Stadning: Sohpomore  GPA: 3.79 
+ FIRST NAME: Lady     LAST NAME: Gaga     ID: 777744   Phone Number 213-555-6789 Age: 33  Gender: F  Class Stadning: Freshman   GPA: 2.1  
+ 
+Printing a default CS student, and a non default constructed student
+
+ FIRST NAME: NOT SET  LAST NAME: NOT SET  ID: NOT SET  Phone Number NOT SET      Age: 0   Gender: O  Class Stadning: NOT SET    GPA: 0    
+ Assignment score: 0 Python Knowledge: NO Graduation Date: 0/0/0
+ FIRST NAME: NOT SET  LAST NAME: NOT SET  ID: NOT SET  Phone Number NOT SET      Age: 0   Gender: O  Class Stadning: NOT SET    GPA: 0    
+ Assignment score: 800 Python Knowledge: yes Graduation Date: 5/11/2020
+ 
+ Printing out the CS students with new changed data
+
+ FIRST NAME: Adele    LAST NAME:          ID: 667788   Phone Number 949-665-1234 Age: 31  Gender: F  Class Stadning: Freshman   GPA: 3.3  
+ Assignment score: 500 Python Knowledge: no Graduation Date: 5/12/2020
+ FIRST NAME: Taylor   LAST NAME: Swift    ID: 156789   Phone Number 248-555-6543 Age: 29  Gender: F  Class Stadning: Sophomore  GPA: 3.9  
+ Assignment score: 700 Python Knowledge: no Graduation Date: 5/11/2020
+ FIRST NAME: Bruno    LAST NAME: Mars     ID: 876543   Phone Number 703-703-7654 Age: 33  Gender: M  Class Stadning: Sophomore  GPA: 3.2  
+ Assignment score: 800 Python Knowledge: yes Graduation Date: 5/11/2020

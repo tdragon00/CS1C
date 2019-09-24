@@ -13,21 +13,23 @@
 
 class CSStudent :public student
 {
-bool python_knowledge;
+//couldnt get a bool to work
+string python_knowledge;
 int Score;
-date Graduation;
 public:
+date Graduation;
+
 //constructors
 CSStudent();
-CSStudent(bool, int,date);
+CSStudent(string, int,date);
 //setters
-void Setknowledge(bool);
+void Setknowledge(string);
 void Setscore(int);
 void setgdate(date);
 
 //getters
 date getdate();
-bool getknowledge();
+string getknowledge();
 int getscore();
 //print
 void print();
