@@ -7,19 +7,25 @@
 
 #ifndef ITEM_H_
 #define ITEM_H_
-struct Item
+class Item
 {
 // product variables
 	int product_number;
-	int number_of_products;
+	int amount;
 
 
-
+public:
 //constructor
 	 Item();
 	~Item();
 
+//setters
+void setproductnumber();
+void setamount();
 
+//getters
+int getnumber();
+int getamount();
 
 };
 
