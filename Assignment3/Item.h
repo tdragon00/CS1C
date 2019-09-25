@@ -16,17 +16,11 @@ struct Item
 
 public:
 //constructors
-	 Item();
+		Item();
 	 Item(int p,int a);
 
 
-//setters
-void setproductnumber();
-void setamount();
 
-//getters
-int getnumber();
-int getamount();
 
 };
 

@@ -29,13 +29,13 @@ while (!done)
 
 
 current_number =inventory::productprompt();
-current_amount =inventory::amountprompt();
-*p= new Item(current_number,current_amount);
-cart[*p->product_number]=*p;
+current_amount =inventory::amountprompt(current_number);
+p= new Item(current_number,current_amount);
+cart[p->product_number]=*p;
 
 std::cout<<"Press Y to add another item to the cart, type anything else to purchase another item"<<std::endl;
 std::cin>>input;
-if(input==Y)
+if(input=='Y')
 {
 	done=true;
 }
@@ -44,14 +44,14 @@ if(input==Y)
 
 double subtotal=0;
 double total=0;
-for(int i=0;i<NUM_OF_PRODUCTS;i++)
+for(int i=0;i<inventory::NUM_OF_PRODUCTS;i++)
 {
-	total=total+ (cart[i].amount * Prices[cart[i].product_number])
+	total=total+ (cart[i].amount * inventory::Prices[cart[i].product_number]);
 
 
 }
 
-total = total*(1+inventory::taxrate)
+total = total*(1+inventory::taxrate);
 
 
 

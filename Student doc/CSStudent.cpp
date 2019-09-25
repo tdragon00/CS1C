@@ -9,9 +9,9 @@
 #include<iomanip>
 #include "date.h"
 #include "student.h"
-#include "CS1Cstudent.h"
+#include "CSStudent.h"
 using namespace std;
-CSStudent::CSStudent()::student()
+CSStudent::CSStudent():student()
 {
 	python_knowledge ="NO";
 	Score=0;

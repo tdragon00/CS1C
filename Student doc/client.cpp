@@ -8,7 +8,7 @@
 #include "student.h"
 #include"date.h"
 #include <string>
-#include"CS1Cstudent.h"
+#include"CSStudent.h"
 
 
 int main()

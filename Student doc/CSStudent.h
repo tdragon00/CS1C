@@ -5,8 +5,8 @@
  *      Author: tyler
  */
 
-#ifndef CS1CSTUDENT_H_
-#define CS1CSTUDENT_H_
+#ifndef CSSTUDENT_H_
+#define CSSTUDENT_H_
 #include <iostream>
 #include "student.h"
 #include "Date.h"
