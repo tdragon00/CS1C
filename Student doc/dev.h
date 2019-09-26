@@ -28,13 +28,13 @@ class dev :public student
 
 	dev(const dev&);
 	//setters;
-	void setaddress(char* );
-	void setcity(char );
-	void setstate(char );
+	void setaddress(char*);
+	void setcity(char* );
+	void setstate(char*);
 	//getters;
 	char* getaddress()const;
-	char getcity()const ;
-	char getstate()const ;
+	char* getcity()const ;
+	char* getstate()const ;
 
 
 };

@@ -57,18 +57,21 @@
 
 
 	}
+
 	//setters;
 	void dev::setaddress(char *x)
 	{
 		strcpy(address,x);
 	};
-	void dev::setcity(char x)
+
+
+	void dev::setcity(char *x)
 	{
-	*city=x;
+		strcpy(city, x);
 	};
-	void dev::setstate(char x)
+	void dev::setstate(char *x)
 	{
-	*state=x;
+	 strcpy(city, x);
 	};
 	//getters;
 	char* dev::getaddress()const
@@ -76,11 +79,11 @@
 		return address;
 
 	};
-	char dev::getcity()const
+	char* dev::getcity()const
 	{
-		return *city;
+		return city;
 	};
-	char dev::getstate()const
+	char* dev::getstate()const
 	{
-		return *state;
+		return state;
 	};
