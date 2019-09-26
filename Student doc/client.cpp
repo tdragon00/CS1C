@@ -9,10 +9,12 @@
 #include"date.h"
 #include <string>
 #include"CSStudent.h"
+#include"dev.h"
 
 
 int main()
 {
+	/*
 	//variables used in constructor test otherwise program takes the "string inputs" and
 	//interprets them as char arrays, and is not recognized in the constructor
 	string firstholder="Madona";
@@ -128,8 +130,13 @@ cout<<"\n \n Printing out the CS students with new changed data"<<endl;
 CS[0].print();
 CS[1].print();
 CS[2].print();
+*/
+	dev devchan;
+	dev testchan;
 
-
+	char test[]="hole";
+	devchan.setaddress(test);
+	std::cout<<devchan.getaddress();
 
 
 
