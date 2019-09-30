@@ -12,6 +12,9 @@
 #include"dev.h"
 
 
+void foo(dev);
+
+
 int main()
 {
 	/*
@@ -131,18 +134,42 @@ CS[0].print();
 CS[1].print();
 CS[2].print();
 */
-	dev devchan;
+
+	char address1[]="123 maple";
+	char city1[]="mission viejo";
+	char state1[]="CA";
+	//dev devchan(address1, city1, state1);
 	dev testchan;
+	std::cout<<"Printing out a software developer without any data"<<endl;
+	testchan.print();
+	std::cout<<endl;
+	std::cout<<"Changing the address, city, and state of a software developer class"<<endl;
+	testchan.setaddress(address1);
+	testchan.setcity(city1);
+	testchan.setstate(state1);
+	//std::cout<<testchan.getaddress();
+	std::cout<<"/n Printing out the newly changed Software dev /n";
+	testchan.print();
 
-	char test[]="hole";
-	devchan.setaddress(test);
-	std::cout<<devchan.getaddress();
+
+	//char test[]="hole";
+	//devchan.setaddress(test);
+	//std::cout<<devchan.getaddress();
+	//	devchan = testchan;
+	//foo(devchan);
+	//devchan.print();
 
 
 
 
 
 
+}
+
+
+
+void foo (dev)
+{
 
 
 

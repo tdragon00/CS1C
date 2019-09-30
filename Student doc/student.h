@@ -26,6 +26,7 @@ class student
 public:
 	//constructors
 	student();
+	student(char*,char*,char*);
 	student(string,string,string,string,int,char,string,float);
 
 	//setters

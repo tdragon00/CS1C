@@ -8,6 +8,7 @@
 #include "dev.h"
 #include "student.h"
 #include <string.h>
+#include <iomanip>
 
 
 
@@ -18,15 +19,23 @@
 		city= new char;
 		state= new char;
 
+
+		strcpy(address,"NOT SET");
+		strcpy(city,"NOT SET");
+		strcpy(state,"NOT SET");
+
+
 	}
-	dev::dev(char ad,char ci ,char st):student()
+	dev::dev(char* ad,char* ci ,char* st):student()
 	{
 		address= new char;
 		city= new char;
 		state= new char;
-		address=&ad;
-		city=&ci;
-		state=&st;
+		strcpy(address,ad);
+		strcpy(city,ci);
+		strcpy(state,st);
+
+
 
 	}
 
@@ -52,7 +61,7 @@
 	   city =olddev.city;
 		state = new char;
 	   state =olddev.state;
-	   std::cout<<"CCC";
+	   std::cout<<"Copy Constructor Called";
 
 
 
@@ -87,3 +96,14 @@
 	{
 		return state;
 	};
+	// print function
+	void dev::print()
+	{student::print();
+		std::cout<<"Address: "<<getaddress();
+		std::cout<<"City : "<<getcity();;
+		std::cout<<"state: "<<getstate();
+		std::cout<<endl;
+
+
+
+	}
