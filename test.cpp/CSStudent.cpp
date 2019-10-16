@@ -1,10 +1,10 @@
-    /*
+/*
  * CSStudent.cpp
  *
  *  Created on: Sep 11, 2019
  *      Author: tyler
  */
-
+/*
 #include<iostream>
 #include<iomanip>
 #include "date.h"
@@ -71,3 +71,4 @@ void CSStudent::print()
 
 		//<<"Graduation date:"<<date.getmonth()
 };
+*/

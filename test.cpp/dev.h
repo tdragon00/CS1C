@@ -22,8 +22,9 @@ class dev :public student
 	public:
 	//constructors   
 	dev();
-	dev(char,char,char);
-	dev(char,char,char,std::string,std::string,std::string, std::string, int,char,std::string,float );
+	dev(char*,char*,char*);
+	dev(char*,char*,char*,std::string,std::string,std::string, std::string, int,char,std::string,float );
+
 	//copy contructor
 
 	dev(const dev&);
@@ -35,6 +36,7 @@ class dev :public student
 	char* getaddress()const;
 	char* getcity()const ;
 	char* getstate()const ;
+	void print();
 
 
 };

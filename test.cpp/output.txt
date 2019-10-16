@@ -1,0 +1,21 @@
+Printing out a software developer without any data
+
+ FIRST NAME: NOT SET  LAST NAME: NOT SET  ID: NOT SET  Phone Number NOT SET      Age: 0   Gender: O  Class Stadning: NOT SET    GPA: 0     Address: NOT SET City : NOT SET state: NOT SET
+
+Changing the address, city, and state of a software developer class
+
+ Printing out the newly changed Software dev 
+
+ FIRST NAME: NOT SET  LAST NAME: NOT SET  ID: NOT SET  Phone Number NOT SET      Age: 42  Gender: O  Class Stadning: NOT SET    GPA: 0     Address: 123 main  City : MV state: CA
+Copy Constructor Called
+ call by copy 
+
+ call by reference 
+
+ returning by reference 
+
+ testing the deep copy function
+Copy Constructor Called
+ FIRST NAME: NOT SET  LAST NAME: NOT SET  ID: NOT SET  Phone Number NOT SET      Age: 0   Gender: O  Class Stadning: NOT SET    GPA: 0     Address: 123 main  City : MV state: CA
+Copy Constructor Called
+ FIRST NAME: NOT SET  LAST NAME: NOT SET  ID: NOT SET  Phone Number NOT SET      Age: 0   Gender: O  Class Stadning: NOT SET    GPA: 0     Address: 123 main  City : MV state: CA
