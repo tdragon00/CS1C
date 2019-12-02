@@ -1,0 +1,159 @@
+Tyler Dewalt CS1C MON WED 2:30-4:50
+Part one 
+
+1A: Current Day, Date and Time is: 
+Tue Nov 26 00:21:01 2019
+
+1B: The Day, Date and Time 88 days from today is: 
+Fri Jul 03 01:21:01 2020
+
+ 1C:The number of days between july 25 and december 24th is 
+183 days
+Part two 
+
+The cout of sqrt(-2) is :
+nan
+The error of sqrt(-2) is :
+Domain error
+
+The cout of 1/sin(0) :
+inf
+The error of 1/sin(0) :
+No error
+
+The cout of the natural log(-2) is :
+nan
+The error of the natural log(-2) is :
+Domain error
+
+subtraction of unsigned ints
+4
+ Part three 
+
+testing the cube of 3 using a pointer function array :
+27
+testing the cuberoot  of 27 using a pointer function array :
+3
+part 4
+the number of bits for all the letters in the alphabet(uppercase and lowercase) + the numbers of 1-10A
+has 2bits
+B
+has 2bits
+C
+has 3bits
+D
+has 2bits
+E
+has 3bits
+F
+has 3bits
+G
+has 4bits
+H
+has 2bits
+I
+has 3bits
+J
+has 3bits
+K
+has 4bits
+L
+has 3bits
+M
+has 4bits
+N
+has 4bits
+O
+has 5bits
+P
+has 2bits
+Q
+has 3bits
+R
+has 3bits
+S
+has 4bits
+T
+has 3bits
+U
+has 4bits
+V
+has 4bits
+W
+has 5bits
+X
+has 3bits
+Y
+has 4bits
+Z
+has 4bits
+0
+has 2bits
+1
+has 3bits
+2
+has 3bits
+3
+has 4bits
+4
+has 3bits
+5
+has 4bits
+6
+has 4bits
+7
+has 5bits
+8
+has 3bits
+a
+has 3bits
+b
+has 3bits
+c
+has 4bits
+d
+has 3bits
+e
+has 4bits
+f
+has 4bits
+g
+has 5bits
+h
+has 3bits
+i
+has 4bits
+j
+has 4bits
+k
+has 5bits
+l
+has 4bits
+m
+has 5bits
+n
+has 5bits
+o
+has 6bits
+p
+has 3bits
+q
+has 4bits
+r
+has 4bits
+s
+has 5bits
+t
+has 4bits
+u
+has 5bits
+v
+has 5bits
+w
+has 6bits
+x
+has 4bits
+y
+has 5bits
+z
+has 5bits
